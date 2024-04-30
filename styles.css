@@ -1,1 +1,30 @@
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
 
+.body-tag {
+    background-color:#ebdfbe; 
+    padding: 40px; 
+    font-family: Verdana; 
+    font-size: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.summary-paragraph {
+    text-decoration: underline; 
+    margin: 0px;
+}
+
+.intention {
+    text-decoration: underline; 
+    margin: 4px;
+}
+
+.no-margin {
+    margin: 0px;
+}
