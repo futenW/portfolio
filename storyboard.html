@@ -11,18 +11,24 @@
       <title>Futen Wang | Portfolio</title>
       <!-- import CSS styles -->
       <link rel="stylesheet" href="styles.css" /> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
   
     <!-- page content goes into <body> -->
     <body style="color: #dfdfeb; background: #171717">
-      <div class="topnav" style="font-family: Verdana; position: fixed; width: 100%;">
+      <div class="navbar" style="font-family: Verdana; position: fixed; width: 100%;">
         <a href="index.html">Home</a>
-        <a href="contact.html">Contact</a>
         <a href="resume.html">Resume</a>
-
-        <a class="active" style="float:right" href="storyboard.html">Storyboard</a>
-        <a style="float:right" href="development.html">Development</a>
-        <a style="float:right" href="reponsive-redesign.html">Responsive Redesign</a>
+        <div class="dropdown active">
+          <button class="dropbtn">Projects
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="reponsive-redesign.html">Responsive Redesign</a>
+            <a href="development.html">Development</a>
+            <a href="storyboard.html">Storyboard</a>
+          </div>
+        </div> 
       </div>
 
       <div class="body-tag" style="padding: 40px; font-family: Verdana; font-size: 20px;">

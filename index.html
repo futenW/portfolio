@@ -5,25 +5,31 @@
       <title>Futen Wang | Portfolio</title>
       <!-- import CSS styles -->
       <link rel="stylesheet" href="styles.css" /> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
   
     <!-- page content goes into <body> -->
-    <body style="color: #dfdfeb; background: #171717">
-      <div class="topnav" style="font-family: Verdana; position: fixed; width: 100%;">
+    <body style="color: #dfdfeb; background: #171717; height: 101vh;">
+      <div class="navbar" style="font-family: Verdana; position: fixed; width: 100%;">
         <a class="active" href="index.html">Home</a>
-        <a href="contact.html">Contact</a>
         <a href="resume.html">Resume</a>
-
-        <a style="float:right" href="storyboard.html">Storyboard</a>
-        <a style="float:right" href="development.html">Development</a>
-        <a style="float:right" href="reponsive-redesign.html">Responsive Redesign</a>
+        <div class="dropdown">
+          <button class="dropbtn">Projects
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="reponsive-redesign.html">Responsive Redesign</a>
+            <a href="development.html">Development</a>
+            <a href="storyboard.html">Storyboard</a>
+          </div>
+        </div> 
       </div>
 
       <div class="body-tag">
-        <img style="position: relative; top: 23vh; left: 17vw; width: 26vw; height: auto;" src="assets_main/AI_ME.jpeg" 
+        <img style="position: relative; top: 23vh; left: 14vw; width: 26vw; height: auto;" src="assets_main/AI_ME.jpeg" 
               alt="Artificall Intelligence-generated image of Futen">
-        <h1 style="position: relative; top: -30vh; left: 49vw; width: 32vw; height: auto;">Hi there! I'm Futen.</h1>
-        <p style="position: relative; top: -30vh; left: 49vw; width: 32vw; height: 15vh; font-size: medium;">
+        <h1 style="position: relative; top: -30vh; left: 47vw; width: 40vw; height: auto;">Hi there! I'm Futen.</h1>
+        <p style="position: relative; top: -30vh; left: 47vw; width: 37vw; height: 15vh; font-size: medium;">
           I'm a graduating senior at Brown University studying Computer Science and Economics.
           <br><br>
           As a thinker and a visualizer, my instincts lie in frontend development, space optimization, and hierarchical design.
