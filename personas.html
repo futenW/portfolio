@@ -32,146 +32,70 @@
       </div>
 
       <div class="body-tag" style="padding: 40px; font-family: Verdana; font-size: 20px;">
-        <h1>Background</h1>
-        How do button colors and font-sizing affect the usability of a website? This project aims to study the results of differentiating buttons through color schemes and enlarging fonts of crucial elements within a webpage. Through the use of A/B on two similar websites with slight modifications, we study the 
-        effects of such alteractions through empirical measures of misclick rates, time spent on webpages, and task success rates on the part of the end user.
+        <h1 class="underline">Sketch</h1>
+        <img src="./assets_personas/microwave_drawing.jpeg" style="width: 700px"/>
         <br>
         <br>
-        In the image below, the buttons colors between the "See Appointment" and "Schedule Appointment" have been modified to add greater contrast between the two functionalities. In addition, 
-        the numerical day number of each appointment has been enlarged for greater clarity.
+        <h1 class="underline">Observation</h1>
+        <ol>
+          <li><b>How do you rate the ease of use with the microwave on a scale of 1-6 with 1 being the hardest to use/understand and 6 being the easiest? Why?</b></li>
+          <br>
+          - All answered 5. The buttons are worn down, so it’s hard to read the labels. Microwave beeps too many times when it’s finished. Didn’t know you could add 4 minutes directly
+          <br><br>
+          - Only know how to use one button, the “add 30 seconds” button. There are marks on the button from other people using it many times, and so it’s easy to know which button to press
+          <br><br>
+          <li><b>Is there anything you liked about the interface?</b></li>
+          <br>
+          - The “add 30 seconds” button is useful<br><br>
+          - Everything’s clearly labeled (except the buttons that are worn out)
+          <br><br>
+          <li><b>Did you have any difficulties with the interface?</b></li>
+          <br>
+          - Finger marks help to distinguish which buttons to press. Maybe if they weren’t there, it would be more difficult to know what to do to make it work
+          <br><br>
+          - Difficult reading the buttons with worn labels
+          <br><br>
+          <li><b>Is there anything you wish the interface had that would make it easier to use/interact with?</b></li>
+          <br>
+          - Very pronounced add 30 seconds button.
+          <br><br>
+          - Ability to pre-save one-and-a-half-minute cook time because often used
+          <br><br>
+          <li><b>Was the product navigation as you expected?</b></li>
+          <br>
+          - Yes
+          <br><br>
+          - It adds 30 seconds when the “add 30 seconds” button is pressed
+        </ol>
+        <br>
+        <b>Main accessibility issue:</b> Overused buttons have the plastic fraying, making it hard to see what the labels say. This may make the microwave harder to use for first-time/infrequent users
         <br><br>
-        <img src="./assets/edited.jpeg" style="width: 1000px;"/>
-  
-        <h1 style="text-decoration: underline;">Misclick Rate</h1>
-        The misclick rate is the frequency with which users click something else on the page before finding the correct button for the task.
-  
-        <ol>
-          <li style="font-weight: 900;">Hypotheses</li>
-          <ol type="a">
-            <li style="color: blue">H0: The average misclick rate for version A is the same as the average misclick rate for version B</li>
-            <ol type="i">
-              <li>I think I will reject the null hypothesis,  as version B contains enhancements intended to decrease the chances for misclicks regarding “See Appointment” vs. “Schedule Appointment” and date numbers. I think these enhancements will reduce the chances of errors made by the user in confusing the types of appointment buttons and clicking the appointment for the wrong date.</li>
-            </ol>
-            <li style="color: red">HA: The average misclick rate for version A is different from the average misclick rate for version B</li>
-            <ol type="i">
-              <li>Alternative hypothesis reasoning: version B potentially decreases the chance of misclicks, as the color contrast in shades between the “See Appointment” and “Schedule Appointment” buttons would serve to accentuate the differences in functionality between the two buttons for each appointment, and the enlarged numerical date fonts would serve to better communicate the date for which each appointment is designated for.</li>
-            </ol>
-          </ol>
-  
-          <li style="font-weight: 900;">Statistical Tests</li>
-          <ol type="a">
-            <li>We are using a <mark>Chi-squared test</mark> because misclick rates are measured through frequency and categorical data, and we are checking whether one version’s misclick frequency differs from the other version’s misclick frequency.</li>
-            <li>Our result is statistically significant.</li>
-            <li>Important Values:</li>
-            <ol type="i">
-              <li>Degrees of freedom = 1</li>
-              <ul type="1"><li>The maximum number of logically independent values, which are values that have the freedom to vary in the data sample <i>(Investopedia)</i></li></ul>
-              <li>Chi-square statistic: 3.9564</li>
-              <ul type="1"><li>Our measure of how far the observed counts are from the expected counts is 3.956 units away from the asymptotic minimum. For a degree of freedom of 1, this is on the rather farther end.</li></ul>
-              <li>p-value: 0.046693</li>
-              <ul type="1"><li>The probability of observing the given results in misclick rates  on each page between version A and B assuming the null hypothesis H0 is true is 4.669%</li></ul>
-              <li>Our result is significant at p < 0.05.</li>
-              <ul type="1"><li>At an alpha level of 5%, we reject the null hypothesis, as our p-value (0.046693) lies under our set threshold</li></ul>
-            </ol>
-            <li>Conclusion: We reject the null hypothesis</li>
-          </ol>
-        </ol>
-  
-        <b>Summary Statistics:</b> When averaging the number of successes vs. failures in completing the task, with failures mapping to 0 and successes mapping to 1, version B has an average of 0.964 while version A has an average of 0.794, displaying a lower average of success for version A and a near-perfect success rate for version B. In addition, version A performed with a lower number of successes than expected (27 to 29.61) and a higher number of failures than expected (7 to 4.39) whereas version B performed with a higher number of successes than expected (27 to 24.39) and a lower number of failures than expected (1 to 3.61), indicating a contrast in expected performance between the two versions in opposite directions.
-      
-  
-  
-  
-  
-  
-  
-        <br><br><br>
-        <h1 style="text-decoration: underline;">Time on page</h1>
-        Time on page is the amount of time spent on the webpage for each user group.
-  
-        <ol>
-          <li style="font-weight: 900;">Hypotheses</li>
-          <ol type="a">
-            <li style="color: blue">H0: The average amount of time spent on version A is the same as the average amount of time spent on version B</li>
-            <ol type="i">
-              <li>I think I will reject the null hypothesis, as version B contains enhancements intended to increase the efficiency in finding the correct button to press to schedule the correct appointment through color contrast and font-sizing, which may decrease the amount of cognitive processing time it takes for users to discern the correct course of action.</li>
-            </ol>
-            <li style="color: red">HA: The average amount of time spent on version A is higher than the average amount of time spent on version B</li>
-            <ol type="i">
-              <li>Alternative hypothesis reasoning: version B would potentially decrease the amount of time the user must spend on the web page to find the correct place to press, as the modifications in color and font would allow the user to cognitively process the information on the web page faster and discern the correct course of action faster,  leading to less time spent on web page version B.</li>
-            </ol>
-          </ol>
-  
-          <li style="font-weight: 900;">Statistical Tests</li>
-          <ol type="a">
-            <li>We are using a <mark>one-tailed T-test</mark> because time data is numerical (continuous) and we are checking the hypothesis that one version’s average differs from the other version’s average only in one direction.</li>
-            <li>Our result is not statistically significant.</li>
-            <li>Important Values:</li>
-            <ol type="i">
-              <li>Version B Summary Statistics</li>
-              <ul>
-                <li>Avg(version B): 10076.21429</li>
-                <li>Variance(version B): 66,683,824.69</li>
-              </ul>
-              <li>Version A Summary Statistics</li>
-              <ul>
-                <li>Avg(version A): 12860.44118</li>
-                <li>Variance(version A): 140,609,949</li>
-              </ul>
-              <li>Degrees of Freedom: 58.31487128</li>
-              <ul type="1"><li>The maximum number of logically independent values, which are values that have the freedom to vary in the data sample <i>(Investopedia)</i></li></ul>
-              <li>T-score: -1.090625636</li>
-              <ul type="1"><li>Our normalized results lie -1.09 standard deviations away from the mean of the t-distribution</li></ul>
-              <li>p-value: 0.1399618289</li>
-              <ul type="1"><li>The probability of observing the given results in time spent on each page between version A and B assuming the null hypothesis H0 is true is 13.996%</li></ul>
-              <li>Result is not significant at p < 0.05</li>
-              <ul type="1"><li>At an alpha level of 5%, we cannot reject the null hypothesis, as our p-value (0.13996) lies above our set threshold</li></ul>
-            </ol>
-            <li>Conclusion: We fail to reject the null hypothesis.</li>
-          </ol>
-        </ol>
-  
-        <b>Summary Statistics:</b> The mean of version A (12,860.44118) was similar in magnitude version B (10,076.21429), although they are 2,784.22689 milliseconds (2.78 seconds) apart, with version B taking a slighter shorter time to complete on average. This is consistent in direction with the alternative hypothesis, where the average amount of time spent on version A is higher than the average amount of time spent on version B. Thus, there exists still the possibility of the test resulting in an outcome statistically significant. In addition, the variances are generally similar in magnitude between the two versions, although version A has a variance over twice that of version B, indicating a wider spread of response times for the original unaltered version of the web page.
-  
-  
-  
-        <br><br><br>
-        <h1 style="text-decoration: underline;">Did Succeed</h1>
-        My metric of choice is the boolean indicating whether the user successfully completed the task, as the determination of whether the user ultimately ended up successfully completing their intended task seems quite important as a measure to the ultimate usability of the website.
-  
-        <ol>
-          <li style="font-weight: 900;">Hypotheses</li>
-          <ol type="a">
-            <li style="color: blue">H0: The average task success rate for version A is the same as the average task success rate for version B</li>
-            <ol type="i">
-              <li>I think I will fail to reject the null hypothesis, as while version B contains modifications that may make the interface easier to use, I think the original site is already usable enough and does not contain any hindrances that would prevent the user from ultimately succeeding in completing the task.</li>
-            </ol>
-            <li style="color: red">HA: The average task success rate for version A is different from the average task success rate for version B</li>
-            <ol type="i">
-              <li>Alternative hypothesis reasoning: version B would potentially allow the end user to succeed more often in completing the task, since the enhancements positively contribute to the usability of the site.</li>
-            </ol>
-          </ol>
-  
-          <li style="font-weight: 900;">Statistical Tests</li>
-          <ol type="a">
-            <li>We are using a <mark>Chi-squared test</mark> because success rates are measured through a discrete variable representing categorical data, and we are checking whether one version’s success frequency differs from the other version’s success frequency.</li>
-            <li>Our result is not statistically significant.</li>
-            <li>Important Values:</li>
-            <ol type="i">
-              <li>Degrees of freedom = 1</li>
-              <ul type="1"><li>The maximum number of logically independent values, which are values that have the freedom to vary in the data sample <i>(Investopedia)</i></li></ul>
-              <li>Chi-square statistic ≈ 0</li>
-              <ul type="1"><li>Our measure of how far the observed counts are from the expected counts is nearly the asymptotic minimum.</li></ul>
-              <li>p-value ≈ 1</li>
-              <ul type="1"><li>The probability of observing the given results in number of successes in completing the task between version A and B assuming the null hypothesis H0 is true is approximately certain.</li></ul>
-              <li>Our result is not significant at p < 0.05.</li>
-              <ul type="1"><li>At an alpha level of 5%, we cannot reject the null hypothesis, as our p-value (~1) lies well above our set threshold.</li></ul>
-            </ol>
-            <li>Conclusion: We fail to reject the null hypothesis.</li>
-          </ol>
-        </ol>
-  
-        <b>Summary Statistics:</b> When averaging the number of successes vs. failures in completing the task, with failures mapping to 0 and successes mapping to 1, both versions A and B averaged 1 with 0 variance, meaning all attempts at the task succeeded for all trials in both web pages A and B. This is a clear indication that the sampling statistics do not produce an outcome sufficient to reject the null hypothesis, as there exists no difference in success/failure rates between the two versions.
+        Person 1:
+        <ul style="margin-top: 0px">
+          <li>Presses start button a lot, multiple times even though microwave already started</li>
+          <li>Uses with relative ease, easily finds right button (number to press)</li>
+          <li>Doesn’t come pick up food when done</li>
+        </ul>
+        Person 2:
+        <ul style="margin-top: 0px">
+          <li>Opens door, leaves it open while pouring milk</li>
+          <li>Presses one minute button before adding 30 seconds</li>
+          <li>Doesn’t use start button, so microwave starts while still adding time</li>
+          <li>Stands by microwave while waiting for milk to heat</li>
+          <li>Presses cancel button</li>
+        </ul>
+        Person 3:
+        <ul style="margin-top: 0px">
+          <li>Hand hovers over back and forth between buttons</li>
+          <li>Then pressed a lot of buttons</li>
+          <li>Eventually reset to starting point</li>
+          <li>Difficulty finding start button</li>
+          <li>First set cook time, power level, then press start</li>
+          <li>Pressed cancel button</li>
+          <li>Cleared pretty quickly</li>
+          <li>Set clock on microwave relatively quickly in contrast</li>
+        </ul><br>
+        <h1 class="underline">Personas</h1>
       </div>
     </body>
   
