@@ -7,6 +7,7 @@
 .title { font-size: 56px; margin-bottom: 0px; font-family: Georgia, 'Times New Roman', Times, serif; }
 .subtitle { margin-top: 0px; margin-left: 5px; margin-bottom: 45px; font-size: 20px; color: #2e89ff }
 .heading { margin-bottom: 12px; color: #2e89ff;font-family: Georgia, 'Times New Roman', Times, serif; }
+.caption { margin-bottom: 5px; font-size: 17px; }
 table, th, td { border: 1px solid rgb(232, 232, 232); text-align: center; padding: 5px; } /* (for development) */
 
 /* menu bar */
