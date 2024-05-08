@@ -1,12 +1,13 @@
 .body-tag {
-background-color:#171717; 
-    padding: 40px; 
+    background-color:#171717; 
+    padding: 50px; 
     font-family: Verdana; 
     font-size: 20px;
 } body { margin: 0; padding: 0; }
 .title { font-size: 56px; margin-bottom: 0px; font-family: Georgia, 'Times New Roman', Times, serif; }
 .subtitle { margin-top: 0px; margin-left: 5px; margin-bottom: 45px; font-size: 20px; color: #2e89ff }
 .heading { margin-bottom: 12px; color: #2e89ff;font-family: Georgia, 'Times New Roman', Times, serif; }
+table, th, td { border: 1px solid rgb(219, 211, 63); text-align: center; padding: 5px; } /* (for development) */
 
 /* menu bar */
 .navbar { overflow: hidden; background-color: #606060; }
@@ -20,10 +21,3 @@ background-color:#171717;
 .dropdown-content a:hover { background-color: #ddd; }
 .dropdown:hover .dropdown-content { display: block; }
 .active { background-color: #2e89ff; color: white; }
-
-/* development */
-.underline { text-decoration: underline; }
-.summary-paragraph { text-decoration: underline;  margin: 0px; }
-.intention { text-decoration: underline; margin: 4px; }
-.no-margin { margin: 0px; }
-table, th, td { border: 1px solid rgb(219, 211, 63); text-align: center; padding: 5px; }
